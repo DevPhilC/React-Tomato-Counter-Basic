@@ -1,10 +1,6 @@
 import { useState } from "react";
 import "./styles.css";
 
-// 1 -> display the counter number w/ state
-// 2 -> render the actual tomatoes 🍅
-// 3 -> refactor to create a TomatoBox component
-
 export default function App() {
   const [counter, setCounter] = useState("");
 
